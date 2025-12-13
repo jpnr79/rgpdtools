@@ -1,0 +1,67 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Call to an undefined static method Session\:\:getNewCSRFToken\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: front/rgpdtools.form.php
+
+		-
+			message: '#^Call to static method getTable\(\) on an unknown class Consumable\.$#'
+			identifier: class.notFound
+			count: 1
+			path: inc/rgpdtools.class.php
+
+		-
+			message: '#^Call to static method getTable\(\) on an unknown class ConsumableItem\.$#'
+			identifier: class.notFound
+			count: 1
+			path: inc/rgpdtools.class.php
+
+		-
+			message: '#^Call to static method getTable\(\) on an unknown class Ticket_User\.$#'
+			identifier: class.notFound
+			count: 2
+			path: inc/rgpdtools.class.php
+
+		-
+			message: '#^Instantiated class Log not found\.$#'
+			identifier: class.notFound
+			count: 2
+			path: inc/rgpdtools.class.php
+
+		-
+			message: '#^Instantiated class PhpOffice\\PhpSpreadsheet\\Spreadsheet not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: inc/rgpdtools.class.php
+
+		-
+			message: '#^Instantiated class PhpOffice\\PhpSpreadsheet\\Worksheet\\Worksheet not found\.$#'
+			identifier: class.notFound
+			count: 2
+			path: inc/rgpdtools.class.php
+
+		-
+			message: '#^Instantiated class PhpOffice\\PhpSpreadsheet\\Writer\\Ods not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: inc/rgpdtools.class.php
+
+		-
+			message: '#^Instantiated class QuerySubQuery not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: inc/rgpdtools.class.php
+
+		-
+			message: '#^Instantiated class Ticket_User not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: inc/rgpdtools.class.php
+
+		-
+			message: '#^Result of static method Html\:\:closeForm\(\) \(void\) is used\.$#'
+			identifier: staticMethod.void
+			count: 4
+			path: inc/rgpdtools.class.php
