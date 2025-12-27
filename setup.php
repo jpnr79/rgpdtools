@@ -34,7 +34,7 @@ if (!defined("PLUGIN_RGPDTOOLS_DIR")) {
     define('PLUGIN_RGPDTOOLS_DIR', Plugin::getPhpDir('rgpdtools'));
 }
 if (!defined("PLUGIN_RGPDTOOLS_WEB_DIR")) {
-    define("PLUGIN_RGPDTOOLS_WEB_DIR", Plugin::getWebDir('rgpdtools'));
+    define("PLUGIN_RGPDTOOLS_WEB_DIR", "/plugins/rgpdtools/");
 }
 
 /**
